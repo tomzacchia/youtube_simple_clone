@@ -4,9 +4,55 @@ body {
 }
 
 .navbar {
-    height: 4rem;
+    padding: 6px;
+    height: 3rem;
     width: 100%;
-    background-color: blue;
+    box-sizing: border-box;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+    width: 10%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo #title {
+    display: inline;
+}
+
+.search {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.search__box {
+    width: 80%;
+    height: 10px;
+    outline: solid thin gainsboro;
+}
+
+.search__button {
+    width: 3rem;
+    background-color: gainsboro;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.user {
+    width: 20%;
+}
+
+.user .fa-user-circle {
+    padding-right: 1rem;
+    float: right;
 }
 
 .main {
