@@ -72,3 +72,7 @@ body {
     height: 100%;
     background-color: red;
 }
+iframe {
+width: 70%;
+height: 100%;
+}
