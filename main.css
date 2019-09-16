@@ -1,0 +1,177 @@
+body {
+    padding: 0rem 2rem;
+    background-color: gainsboro;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Intializing (Reset defaults) CSS */
+p {
+    /*   margin: 0px 16px;   */
+  margin: 0;  
+}
+
+/* Styles for navbar */
+.navbar {
+    padding: 6px;
+    height: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+    width: 10%;
+}
+
+.logo {
+    width: 20%;
+    color: red;
+}
+
+.logo #title {
+    display: inline;
+}
+
+.search {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.search__box {
+    width: 80%;
+    height: 16px;
+    outline: solid thin gainsboro;
+}
+
+.search__button {
+    width: 3rem;
+    height: 24px;
+    background-color: gainsboro;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.user {
+    width: 20%;
+}
+
+.user .fa-user-circle {
+    padding-right: 1rem;
+    float: right;
+}
+
+/* Styles for main */
+.main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+/* Styles for video container */
+.video-container {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 50%;
+    border: 0;
+}
+
+.statistic {
+    /* 1rem = 16px */
+    padding: 0rem 1rem;
+}
+
+.statistics__options  p{
+    display: inline;
+    font-size: 10px;
+}
+
+.statistics__icons {
+    float: right;
+}
+
+.statistics__icons:hover {
+    cursor: pointer;
+}
+
+
+.content-creator {
+    display: flex;
+    align-items: center;
+}
+
+.content-creator:hover {
+    cursor: pointer;
+}
+
+.content-creator i {
+    color: green;
+    font-size: 2rem;
+}
+.content-creator i:hover {
+    cursor: pointer;
+}
+
+.content-creator__name {
+    margin-left: 1rem;
+}
+
+.content-creator .subscribe {
+    margin-left: auto;
+    background-color: #e63030;
+    padding: 6px;
+    color: white;
+    border-color: transparent;
+    border-radius: 6px;
+}
+
+.description {
+    margin-top: 1rem;
+}
+
+.description__text {
+    margin-top: 1rem;
+    padding: 0 3rem;
+    font-size: 12px;
+}
+/* Styles for recommendation */
+.recommendation {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+.preview {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    display: flex;
+}
+
+.preview img {
+    width: 10rem;
+}
+
+.preview__description {
+    padding: 1rem 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.preview__description-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.preview__description-views {
+    font-size: 10px;
+}

@@ -6,9 +6,106 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Youtube Clone</title>
     <link rel="stylesheet" href="./main.css">
-
+    <script src="https://kit.fontawesome.com/349cf0313a.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1> Hello World,hello developer </h1>
+    <div class="navbar"> 
+
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>            
+        </div>
+
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <p id="title"> Youtube </p>            
+        </div>
+
+        <div class="search">
+            <input class="search__box" type="text" placeholder="Search">
+            <button class="search__button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+
+        <div class="user">
+            <i class="far fa-user-circle"></i>
+        </div>
+
+    </div>
+
+    <div class="main">
+
+        <div class="video-container">
+
+            <iframe class="" src="https://www.youtube.com/embed/GaoLU6zKaws">
+            </iframe>
+
+            <!-- container for title, like and dislike buttons  -->
+            <div class="statistic">
+                <p class="video__title">
+                    Example of a great title
+                </p>
+
+                <div class="statistics__options">
+                    <p> 50,000 views </p>
+                    <p> Published on 27 Feb 2014</p>
+
+                    <div class="statistics__icons">
+                        <i class="far fa-thumbs-up"> Like </i>
+                        <i class="far fa-thumbs-down"> Dislike </i>
+                        <i class="fas fa-share"> Share </i>                        
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="content-creator">
+                        <i class="fas fa-user-circle"></i>
+                        <p class="content-creator__name"> The Italian Project </p>
+                        <button class="subscribe"> SUBSCRIBE </button>
+                    </div>
+
+                    <div class="description__text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting 
+                            industry. Lorem Ipsum has been the industry's standard dummy text 
+                            ever since the 1500s, when an unknown printer took a galley of type 
+                            and scrambled it to make a type specimen book. It has survived not 
+                            only five centuries, but also the leap into electronic typesetting, 
+                            remaining essentially unchanged.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recommendation">
+            <div class="preview">
+                <img src="images/pasta1.jpeg" alt="Italian">
+                <div class="preview__description">
+                    <p class="preview__description-title"> tasty pasta</p>  
+                    <p class="preview__description-views"> 999K views </p>                  
+                </div>
+            </div>
+
+            <div class="preview">
+                <img src="images/pasta2.jpg" alt="Italian">
+                <div class="preview__description">
+                    <p class="preview__description-title"> very tasty pasta</p>  
+                    <p class="preview__description-views"> 99K views </p>                  
+                </div>
+            </div>
+
+            <div class="preview">
+                <img src="images/pasta3.jpeg" alt="Italian">
+                <div class="preview__description">
+                    <p class="preview__description-title"> very very tasty pasta</p>  
+                    <p class="preview__description-views"> 999K views </p>                  
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+  
 </body>
 </html>
