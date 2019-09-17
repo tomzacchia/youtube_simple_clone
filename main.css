@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  background-color: gainsboro;
+  background-color: #f9f9f9;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -67,9 +67,10 @@ p {
   width: 20%;
 }
 
-.user .fa-user-circle {
+.user i {
   padding-right: 1rem;
   float: right;
+  font-size: 25px;
 }
 
 /* Styles for main */
