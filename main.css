@@ -1,5 +1,5 @@
 body {
-  padding: 0rem;
+  padding: 0;
   background-color: gainsboro;
   font-family: 'Open Sans', sans-serif;
 }
@@ -16,7 +16,6 @@ p {
   width: 100%;
   box-sizing: border-box;
   background-color: white;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,8 +94,7 @@ p {
 }
 
 .statistic {
-  /* 1rem = 16px */
-  padding: 0rem 1rem;
+  padding: 0 1rem;
 }
 
 .statistics__options  p{
