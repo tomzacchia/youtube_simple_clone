@@ -87,7 +87,6 @@ p {
 .video-container {
     width: 70%;
     height: 100%;
-    /* background-color: white; */
 }
 
 .video-container iframe {
@@ -158,7 +157,6 @@ p {
 .recommendation {
     width: 30%;
     height: 100%;
-    /* background-color: white; */
 }
 
 .preview {
