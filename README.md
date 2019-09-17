@@ -3,6 +3,7 @@ This project consists of building an HTML document that matches the appearance o
 
 # Contributors
 Code: [Tommy Montana](https://github.com/TommyM0ntana)
+
 Code Review: [Uche Inyama](https://github.com/uche-inyama)
 
 # How to clone
