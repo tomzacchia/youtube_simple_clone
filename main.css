@@ -1,5 +1,5 @@
 body {
-    padding: 0rem 2rem;
+    padding: 0rem;
     background-color: gainsboro;
     font-family: 'Open Sans', sans-serif;
 }
@@ -43,17 +43,22 @@ p {
 }
 
 .search__box {
+    padding-left: 0.5rem;
     width: 80%;
     height: 16px;
     outline: solid thin gainsboro;
+}
+
+.search__box:focus {
+    outline: 0;
 }
 
 .search__button {
     width: 3rem;
     height: 24px;
     background-color: gainsboro;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 .user {
@@ -67,6 +72,7 @@ p {
 
 /* Styles for main */
 .main {
+    padding-top: 1rem;
     width: 100%;
     height: 80vh;
     display: flex;
