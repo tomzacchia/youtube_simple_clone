@@ -1,4 +1,4 @@
-# [Simple Youtube UI Clone](https://raw.githack.com/tomzacchia/youtube_simple_clone/master/index.html
+# [Simple Youtube UI Clone](https://raw.githack.com/tomzacchia/youtube_simple_clone/master/index.html)
 This project consists of building an HTML document that matches the appearance of Youtube.com
 
 # Contributors
