@@ -10,17 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar"> 
+    <nav class="navbar"> 
 
         <div class="hamburger">
             <i class="fas fa-bars"></i>            
         </div>
 
         <div class="logo">
-            <i class="fab fa-youtube"></i>
-            <p id="title"> Youtube </p>            
+            <img src="./images/youtube-logo.png" alt="youtube-logo">
         </div>
-
+        
         <div class="search">
             <input class="search__box" type="text" placeholder="Search">
             <button class="search__button">
@@ -30,14 +29,17 @@
 
 
         <div class="user">
-            <i class="far fa-user-circle"></i>
+                <i class="far fa-user-circle"></i>
+                <i class="fas fa-file-export"></i>
+                <i class="fas fa-video"></i>
+                <i class="fas fa-bell"></i>
         </div>
 
-    </div>
+    </nav>
 
-    <div class="main">
+    <main class="main">
 
-        <div class="video-container">
+        <section class="video-container">
 
             <iframe class="" src="https://www.youtube.com/embed/GaoLU6zKaws">
             </iframe>
@@ -76,9 +78,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="recommendation">
+        <aside class="recommendation">
             <div class="preview">
                 <img src="images/pasta1.jpeg" alt="Italian">
                 <div class="preview__description">
@@ -103,9 +105,9 @@
                 </div>
             </div>
 
-        </div>
+        </aside>
 
-    </div>
+    </main>
   
 </body>
 </html>
